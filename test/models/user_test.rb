@@ -7,6 +7,7 @@ class UserTest < ActiveSupport::TestCase
 
   test "user should be valid" do
     # p @user.errors.full_messages
+    # assert @user.validate
     assert @user.valid?
   end
 
